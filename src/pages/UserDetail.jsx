@@ -3,8 +3,8 @@ import { useParams, useNavigate } from "react-router-dom";
 
 const users = [
   { id: 1, name: "Resmi.s", email: "resmi@gmail.com" ,image:"https://img.freepik.com/premium-vector/woman-avatar-profile-round-icon_24640-14047.jpg?w=360"},
-  { id: 2, name: "Vinu", email: "vinu@gmail.com",image:"src/Images/man.jpg" },
-  { id: 3, name: "Jaanvi", email: "jaanvi@gmail.com",image:"src/Images/woman.jpg" }
+  { id: 2, name: "Vinu", email: "vinu@gmail.com",image:"https://img.freepik.com/premium-vector/woman-avatar-profile-round-icon_24640-14047.jpg?w=360" },
+  { id: 3, name: "Jaanvi", email: "jaanvi@gmail.com",image:"https://img.freepik.com/premium-vector/woman-avatar-profile-round-icon_24640-14047.jpg?w=360" }
 ];
 
 export default function UserDetail() {
